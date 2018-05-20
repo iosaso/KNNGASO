@@ -1,5 +1,5 @@
-Package: com.niangao.aso
-Name: NGASO
+Package: com.houshuai.aso
+Name: ASO_HS
 Depends: mobilesubstrate
 Version: 0.1.9
 Architecture: iphoneos-arm
