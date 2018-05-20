@@ -2,8 +2,6 @@
 #import "ASO/DecantingPoint.h"
 
 
-
-
 %ctor{
     // 进行初始化方法
     %init;
