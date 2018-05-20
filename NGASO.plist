@@ -1,0 +1,15 @@
+{
+	Filter = {
+		Mode = Any;
+		Bundles = (
+			"com.apple.AppStore",
+			"com.apple.springboard",
+			"com.apple.itunesstored",
+			"com.apple.Preferences",
+			"com.apple.UIKit",
+            "com.apple.IOKit",
+            "com.apple.CoreFoundation",
+            "om.saurik.Cydia"
+		);
+	};
+}
