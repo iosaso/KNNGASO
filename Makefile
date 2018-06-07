@@ -78,16 +78,15 @@ NGASO_FILES += ASO/ChangeCode/ChangeCode.m
 
 NGASO_FRAMEWORKS = Foundation UIKit CoreFoundation CoreGraphics MobileCoreServices IOKit  CoreTelephony
 
-NGASO_CFLAGS    = -F /Users/apple/Documents/NGASO/lib  -Wno-ignored-attributes -Wno-unused-variable -Wno-unused-function
+NGASO_CFLAGS    = -F /Users/devzkn/code/knaso/ASO/lib  -Wno-ignored-attributes -Wno-unused-variable -Wno-unused-function
 
 # NGASO_LDFLAGS = -lDestopTouch -L /Users/admin/Documents/NGASO/
-NGASO_LDFLAGS   =  -lz -L. -v -force_load ./libcapstone.a  -L  /Users/apple/Documents/NGASO/
+NGASO_LDFLAGS   =  -lz -L. -v -force_load ./libcapstone.a  -L  /Users/devzkn/code/knaso/ASO/
 # 链接FrameWork
-NGASO_LDFLAGS  += -F /Users/apple/Documents/NGASO/lib  -framework PTFakeTouch -miphoneos-version-min=6.0 -rpath /Users/apple/Documents/NGASO/lib
+NGASO_LDFLAGS  += -F /Users/devzkn/code/knaso/ASO/lib  -framework PTFakeTouch -miphoneos-version-min=6.0 -rpath /Users/devzkn/code/knaso/ASO/lib
 
 
 include $(THEOS_MAKE_PATH)/tweak.mk
-
 
 # 几维安全
 # TARGET_CC   =   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -fla=99 -kce-xfla=5 -kce-xbcf=99
