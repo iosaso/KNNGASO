@@ -1,0 +1,15 @@
+#!/bin/sh
+
+
+
+function knsetupdeploy(){
+
+	cd `dirname $0` 
+	make clean
+	rm -rf ./packages
+	make package install
+	# knftpuser
+}
+echo "" > ~/.ssh/known_hosts
+
+  knsetupdeploy
