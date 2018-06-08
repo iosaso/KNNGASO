@@ -1,7 +1,10 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore, theos & Swift.gitignore
 
-/*._*
-/._*
+*/*._*
+*/._*
+*/._*.m
+*/._*.h
+*/._.DS_Store
 
 # wepy
 node_modules
