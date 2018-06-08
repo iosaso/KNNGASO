@@ -77,3 +77,4 @@ _site
 #py
 .idea/
 *.DS_Store
+._*
