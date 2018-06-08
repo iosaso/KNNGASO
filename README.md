@@ -33,3 +33,9 @@
  
 # KNNGASO
 /Users/devzkn/code/knaso/ASO
+
+# 用rm递归递归删除子目录下所有._*后缀文件
+
+```
+find . -name "._*"  | xargs rm -f
+```
