@@ -85,6 +85,7 @@ NGASO_LDFLAGS   =  -lz -L. -v -force_load ./libcapstone.a  -L  /Users/devzkn/cod
 # 链接FrameWork
 NGASO_LDFLAGS  += -F /Users/devzkn/code/knaso/ASO/lib  -framework PTFakeTouch -miphoneos-version-min=6.0 -rpath /Users/devzkn/code/knaso/ASO/lib
 
+$(TWEAK_NAME)_CFLAGS += -Wno-error
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
